@@ -17,6 +17,7 @@ void filesearch_algo::file_read(std::string &filepath) {
         std::string text;
         while (std::getline(file, buf)) {
             text += buf;
+            text += " ";
         }
         aut_.init(std::move(text));
     }
@@ -34,7 +35,7 @@ ssize_t filesearch_algo::find_impl_(const std::string &substr) {
     }
 }
 
-ssize_t filesearch_algo::hash_find_impl_(const std::string &substr) {
+ssize_t filesearch_algo::hash_find_impl_(const std::string &substr) { // Алгоритм Рабина-Карпа
     FILE* file_;
     if ((file_ = fopen(filepath_.c_str(), "r")) == nullptr) {
         return -1;

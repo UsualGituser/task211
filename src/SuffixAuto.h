@@ -21,7 +21,7 @@ public:
     SuffixAuto(SuffixAuto&&) = default;
     SuffixAuto& operator=(SuffixAuto&&) = default;
 
-    void init(std::string&& s); // Инициализация суфф.автомата для текста s
+    void init(std::string&& str); // Инициализация суфф.автомата для текста str
 
     ssize_t find_substr(const std::string& substr); // Поиск подстроки в суфф.автомате
 

@@ -1,0 +1,3 @@
+/home/vadim/Develop/task211rep/build/CMakeFiles/rebuild_cache.dir
+/home/vadim/Develop/task211rep/build/CMakeFiles/edit_cache.dir
+/home/vadim/Develop/task211rep/build/CMakeFiles/run.dir

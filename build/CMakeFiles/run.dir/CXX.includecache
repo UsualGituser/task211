@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vadim/Develop/task211rep/main.cpp
+iostream
+-
+src/filesearch_algo.h
+/home/vadim/Develop/task211rep/src/filesearch_algo.h
+
+/home/vadim/Develop/task211rep/src/SuffixAuto.cpp
+SuffixAuto.h
+/home/vadim/Develop/task211rep/src/SuffixAuto.h
+
+/home/vadim/Develop/task211rep/src/SuffixAuto.h
+vector
+-
+string
+-
+map
+-
+
+/home/vadim/Develop/task211rep/src/filesearch_algo.cpp
+fcntl.h
+-
+filesearch_algo.h
+/home/vadim/Develop/task211rep/src/filesearch_algo.h
+
+/home/vadim/Develop/task211rep/src/filesearch_algo.h
+string
+/home/vadim/Develop/task211rep/src/string
+queue
+-
+fstream
+-
+unistd.h
+-
+stdio.h
+-
+SuffixAuto.h
+/home/vadim/Develop/task211rep/src/SuffixAuto.h
+

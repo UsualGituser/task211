@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/run.dir/main.cpp.o CMakeFiles/run.dir/src/filesearch_algo.cpp.o CMakeFiles/run.dir/src/SuffixAuto.cpp.o  -o run 

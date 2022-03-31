@@ -13,7 +13,8 @@ int main(int argc, char*argv[]) {
     searcher.file_read(filepath);
     std::string input;
     std::cout << "Введите паттерн для поиска в тексте:" << std::endl;
-    while (std::cin >> input) {
+    getline(std::cin, input);
+    while (getline(std::cin, input)) {
         ssize_t result = searcher.find_substring(input);
         if (result == -1) {
             std::cout <<  "Вхождений не найдено." << std::endl;
