@@ -52,7 +52,7 @@ ssize_t filesearch_algo::hash_find_impl_(const std::string &substr) { // Алг�
             buf[i] = ' ';
         }
     }
-    std::deque<long long> hash_(substr.size());
+    std::deque<long long> hash_(substr.size());  // Используется дек для контроля памяти - хеши префиксов, которые прошли через проверку будут удаляться pop_front-ом
     long long hash_substr_ = substr[0] % mod_;
     for (int i = 1; i < substr.size(); ++i) {
         hash_substr_ = ((hash_substr_ * prime_) % mod_ + substr[i]) % mod_;
